@@ -1,0 +1,208 @@
+/* &display=swap */
+
+@import "null.css";
+/* =========  Мои подключеные шрифты ==============*/
+
+/* Подключение шрифта через розширение GoogleFonts "Lobster" */
+@import url("https://fonts.googleapis.com/css?family=Lobster:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+/* Семейство шрифтов - BebasNeuePro */
+ @font-face {
+	font-family: "BebasNeuePro";
+	src: url("../fonts/BebasNeuePro-Regular.woff2") format("woff2"), url("../fonts/BebasNeuePro-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "BebasNeuePro";
+	src: url("../fonts/BebasNeuePro-Italic.woff2") format("woff2"), url("../fonts/BebasNeuePro-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "BebasNeuePro";
+	src: url("../fonts/BebasNeuePro-Bold.woff2") format("woff2"), url("../fonts/BebasNeuePro-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+} 
+
+/* Семейство шрифтов - Quicksand */
+@font-face {
+	font-family: "Quicksand";
+	src: url("../fonts/Quicksand-Regular.woff2") format("woff2"), url("../fonts/Quicksand-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Quicksand";
+	src: url("../fonts/Quicksand-Bold.woff2") format("woff2"), url("../fonts/Quicksand-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: BebasNeuePro, Comforter, Quicksand, Lato Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+
+
+/*=============== стили =====================*/
+/* страница №1 стили */
+header{
+	text-align: center;
+}
+h1 {
+	font-size: 40px;
+	font-family: "BebasNeuePro";
+	font-style: italic;
+}
+.sect-1,
+.sect-2,
+.sect-3,
+.sect-4,
+.sect-5 {
+	font-size: 30px;
+	font-family: "Comforter";
+	text-decoration: underline;
+}
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 26px;
+}
+div ul li {
+	font-family: "BebasNeuePro";
+	font-style: italic;
+}
+#section-1 {
+	color: #ADFF2F;
+}
+p {
+	color: #808080;
+	text-indent: 50px;
+	line-height: 1.5;
+	font-size: 20px;
+}
+.second-list {
+	color: #4682B4;
+}
+div p {
+	color: red;
+	font-family: "Quicksand";
+} 
+
+li {
+	color: #00FFFF;
+}
+#section-2 {
+	color: #FF00FF;
+}
+#section-3 {
+	color: #B8860B;
+}
+#section-4 {
+	color: #4B0082;
+}
+#section-5 {
+	color: #FFFF00;	
+}
+
+.sect-1 {
+	color: #ADFF2F;
+}
+.sect-2 {
+	color: #FF00FF;
+}
+.sect-3 {
+	color: #B8860B;	
+}
+.sect-4 {
+	color: #4B0082;	
+}
+.sect-5 {
+	color: #FFFF00;	
+}
+.next {
+	color: blue;
+	text-align: right;
+}
+.back {
+	color: blue;
+	text-align: left;
+}
+.text span {
+	color: #0000CD;
+}
+span {
+	text-decoration: underline;
+	color: lawngreen;
+	text-indent: 50px;
+	letter-spacing: 3px;
+	font-size: 22px;
+}
+.grey {
+	color: #808080;
+}
+.brown {
+	color: #BC8F8F;
+}
+footer {
+	text-align: center;
+}
+.next, .back a {
+	font-family: "Quicksand";
+	font-weight: 700;
+	font-style: italic;
+	font-size: 20px;
+}
+.top {
+	font-family: "Quicksand";
+	font-weight: 700;
+	font-style: italic;
+	color: blue;
+	font-size: 20px;
+}
+/* страница №2 стили */
+[class*="center"] {
+	text-indent: inherit;
+}
+.wrapper {
+	max-width: 810px;
+	margin: 0 auto;
+}
+.statistics {
+	font-style: normal;
+	color: #1E212C;
+	font-weight: 900;
+	font-size: 46px;
+}
+.keyboard {
+	text-align: center;
+}
+.bold {
+	color: #1E212C;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.regular {
+	color: #424551;
+	font-family: "Lato";
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.line {
+	text-indent: 50px;
+}
